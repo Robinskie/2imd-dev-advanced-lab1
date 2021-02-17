@@ -1,5 +1,5 @@
 body {
-    background-color: red;
+    background-color: rgb(218, 190, 190);
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 14;
 }
@@ -15,14 +15,29 @@ h1 {
     animation-timing-function: ease-in-out;
 }
 
+.bulletpoints {
+    color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-style: double;
+    border-color: black;
+    border-width: 2px;
+}
+
+a {
+    margin-left: 50px;
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
 @keyframes floating {
     0% {
-        transform: translateY(-4%);
+        transform: translateY(-20%);
     }
     50% {
         transform: translateY(0%);
     }
     100% {
-        transform: translateY(-4%);
+        transform: translateY(-20%);
     }
 }
