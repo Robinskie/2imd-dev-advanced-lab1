@@ -1,12 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animals</title>
-</head>
-<body>
-    <h1>Cute animals</h1>
-</body>
-</html>
+body {
+    background-color: red;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 14;
+}
+
+h1 {
+    text-align: center;
+    font-size: 20;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #242322;
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(-4%);
+    }
+    50% {
+        transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(-4%);
+    }
+}
